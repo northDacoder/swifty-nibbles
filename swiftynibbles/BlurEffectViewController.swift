@@ -8,11 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class BlurEffectViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.Light)
+        let blurView = UIVisualEffectView(effect: blurEffect)
+        
+        blurView.frame.size = CGSize(width: 360, height: 200)
+        blurView.center = view.center
+        
+        view.addSubview(blurView)
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		5166BDD61BD1FCEF005C07EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166BDD51BD1FCEF005C07EB /* AppDelegate.swift */; };
-		5166BDD81BD1FCEF005C07EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166BDD71BD1FCEF005C07EB /* ViewController.swift */; };
+		5166BDD81BD1FCEF005C07EB /* BlurEffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166BDD71BD1FCEF005C07EB /* BlurEffectViewController.swift */; };
 		5166BDDB1BD1FCEF005C07EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5166BDD91BD1FCEF005C07EB /* Main.storyboard */; };
 		5166BDDD1BD1FCEF005C07EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5166BDDC1BD1FCEF005C07EB /* Assets.xcassets */; };
 		5166BDE01BD1FCEF005C07EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5166BDDE1BD1FCEF005C07EB /* LaunchScreen.storyboard */; };
+		5166BDE81BD1FEB9005C07EB /* Colorful-Hexagons-Pattern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5166BDE71BD1FEB9005C07EB /* Colorful-Hexagons-Pattern.jpg */; settings = {ASSET_TAGS = (); }; };
+		5166BDEA1BD200C8005C07EB /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166BDE91BD200C8005C07EB /* SwitchViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5166BDD21BD1FCEF005C07EB /* swiftynibbles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftynibbles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5166BDD51BD1FCEF005C07EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5166BDD71BD1FCEF005C07EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5166BDD71BD1FCEF005C07EB /* BlurEffectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffectViewController.swift; sourceTree = "<group>"; };
 		5166BDDA1BD1FCEF005C07EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5166BDDC1BD1FCEF005C07EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5166BDDF1BD1FCEF005C07EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5166BDE11BD1FCEF005C07EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5166BDE71BD1FEB9005C07EB /* Colorful-Hexagons-Pattern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Colorful-Hexagons-Pattern.jpg"; sourceTree = "<group>"; };
+		5166BDE91BD200C8005C07EB /* SwitchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		5166BDD41BD1FCEF005C07EB /* swiftynibbles */ = {
 			isa = PBXGroup;
 			children = (
+				5166BDE71BD1FEB9005C07EB /* Colorful-Hexagons-Pattern.jpg */,
 				5166BDD51BD1FCEF005C07EB /* AppDelegate.swift */,
-				5166BDD71BD1FCEF005C07EB /* ViewController.swift */,
+				5166BDD71BD1FCEF005C07EB /* BlurEffectViewController.swift */,
 				5166BDD91BD1FCEF005C07EB /* Main.storyboard */,
 				5166BDDC1BD1FCEF005C07EB /* Assets.xcassets */,
 				5166BDDE1BD1FCEF005C07EB /* LaunchScreen.storyboard */,
 				5166BDE11BD1FCEF005C07EB /* Info.plist */,
+				5166BDE91BD200C8005C07EB /* SwitchViewController.swift */,
 			);
 			path = swiftynibbles;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 				5166BDE01BD1FCEF005C07EB /* LaunchScreen.storyboard in Resources */,
 				5166BDDD1BD1FCEF005C07EB /* Assets.xcassets in Resources */,
 				5166BDDB1BD1FCEF005C07EB /* Main.storyboard in Resources */,
+				5166BDE81BD1FEB9005C07EB /* Colorful-Hexagons-Pattern.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5166BDD81BD1FCEF005C07EB /* ViewController.swift in Sources */,
+				5166BDEA1BD200C8005C07EB /* SwitchViewController.swift in Sources */,
+				5166BDD81BD1FCEF005C07EB /* BlurEffectViewController.swift in Sources */,
 				5166BDD61BD1FCEF005C07EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
